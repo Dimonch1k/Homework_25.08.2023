@@ -16,6 +16,6 @@ public:
     DailyTask();
     DailyTask(string dailyTask, int hour);
     DailyTask(string dailyTask, int hour, int minute);
-    void display();
+    void display() override;
 };
 
