@@ -25,10 +25,10 @@ void DailyTask::display()
 {
 	if (minute <= 0)
 	{
-		cout << "Time: " << hour << ":00 " << dailyTask << "\n\n\n\n";
+		cout << "Time: " << hour << ":00 " << dailyTask << "\n";
 	}
 	else{
 	cout << "Time: " << hour << ":" 
-		<< minute << " " << dailyTask << "\n\n\n\n";
+		<< minute << " " << dailyTask << "\n";
 	}
 }
